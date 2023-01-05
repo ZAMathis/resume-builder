@@ -1,0 +1,1 @@
+## Preconfigured Template with React, Typescript, and Tailwind
