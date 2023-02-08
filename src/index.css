@@ -1,3 +1,62 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    background-color: rgb(212, 212, 212);
+}
+
+#editor {
+    background-color: rgba(243, 243, 243, 0.973);
+    border: 1px solid black;
+    box-shadow: 2px;
+    -webkit-box-shadow: 0px 0px 19px 4px rgba(0,0,0,0.26);
+    -moz-box-shadow: 0px 0px 19px 4px rgba(0,0,0,0.26);
+    box-shadow: 0px 0px 19px 4px rgba(0,0,0,0.26);
+    border-radius: 6px;
+}
+
+.editor-input {
+    border-radius: 6px;
+    width: 90%;
+    align-self: center;
+    padding: 4px;
+}
+
+.editor-input:focus {
+    border: 1px solid gray;
+    outline: none;
+}
+
+.editor-section {
+    margin: 20px 0;
+}
+
+.editor-section h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 10px 30px;
+}
+
+.editor-button {
+    color: white;
+    font-size: large;
+    font-weight: 500;
+    background-color: rgb(41, 41, 41);
+    padding: 4px;
+    width: 90%;
+    border-radius: 4px;
+    align-self: center;
+}
+
+.editor-button:active {
+    background-color: rgb(60, 59, 59);
+}
+
+#editor-section-submit {
+    background-color: rgb(40, 131, 40);
+}
+
+#editor-section-reset {
+    background-color: rgb(182, 30, 30);
+}
