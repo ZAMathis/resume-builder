@@ -1,4 +1,5 @@
 import Editor from "./Editor";
+import Preview from "./Preview";
 
 const Wrapper = () => {
     return (
@@ -8,6 +9,7 @@ const Wrapper = () => {
         mx-auto
         my-12">
             <Editor />
+            <Preview />
         </div>
     )
 }

@@ -6,14 +6,12 @@ body {
     background-color: rgb(212, 212, 212);
 }
 
-#editor {
+#editor, #preview {
     background-color: rgba(243, 243, 243, 0.973);
-    border: 1px solid black;
     box-shadow: 2px;
     -webkit-box-shadow: 0px 0px 19px 4px rgba(0,0,0,0.26);
     -moz-box-shadow: 0px 0px 19px 4px rgba(0,0,0,0.26);
     box-shadow: 0px 0px 19px 4px rgba(0,0,0,0.26);
-    border-radius: 6px;
 }
 
 .editor-input {
@@ -60,3 +58,4 @@ body {
 #editor-section-reset {
     background-color: rgb(182, 30, 30);
 }
+

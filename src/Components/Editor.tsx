@@ -1,6 +1,6 @@
 const Editor = () => {
     return (
-        <div id="editor" className="bg-slate-100">
+        <div id="editor" className="rounded-md border border-black">
             <section 
             id="editor-personal" 
             className="editor-section
